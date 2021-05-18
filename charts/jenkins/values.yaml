@@ -15,6 +15,11 @@ clusterZone: "cluster.local"
 
 renderHelmLabels: true
 
+master:
+  initContainerEnv:
+    - name: JENKINS_UC_DOWNLOAD
+      value: http://ftp-nyc.osuosl.org/pub/jenkins
+
 controller:
   # Used for label app.kubernetes.io/component
   componentName: "jenkins-controller"
@@ -66,9 +71,9 @@ controller:
       cpu: "2000m"
       memory: "4096Mi"
   # Environment variables that get added to the init container (useful for e.g. http_proxy)
-  initContainerEnv:
-    - name: JENKINS_UC_DOWNLOAD
-       value: http://ftp-nyc.osuosl.org/pub/jenkins
+  # initContainerEnv:
+  #   - name: http_proxy
+  #     value: "http://192.168.64.1:3128"
   # containerEnv:
   #   - name: http_proxy
   #     value: "http://192.168.64.1:3128"
