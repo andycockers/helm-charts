@@ -220,6 +220,7 @@ controller:
     - trilead-api:1.0.13
     - gcp-secrets-manager-credentials-provider:0.2.6
     - plain-credentials:1.7
+    - matrix-auth:2.6.6
 
   # Set to false to download the minimum required version of all dependencies.
   installLatestPlugins: false
