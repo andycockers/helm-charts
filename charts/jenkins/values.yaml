@@ -208,7 +208,7 @@ controller:
     - workflow-aggregator:2.6
     - git:4.7.1
     - configuration-as-code:1.51
-    - ssh-credentials:1.18.2
+    - ssh-credentials:1.17.4
     - credentials-binding:1.24
     - pipeline-model-extensions:1.8.4
     - jsch:0.1.55.2
