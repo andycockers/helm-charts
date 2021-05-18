@@ -216,7 +216,6 @@ controller:
     - git-server:1.9
     - workflow-cps-global-lib:2.19
     - pipeline-model-definition:1.8.4
-    - git:4.7.1
 
   # Set to false to download the minimum required version of all dependencies.
   installLatestPlugins: false
