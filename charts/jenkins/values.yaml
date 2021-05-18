@@ -210,7 +210,7 @@ controller:
     - configuration-as-code:1.51
     - ssh-credentials:1.18.2
     - credentials-binding:1.24
-    - pipeline-model-extensions:1.8.4gcs
+    - pipeline-model-extensions:1.8.4
     - jsch:0.1.55.2
     - git-client:3.7.1
     - git-server:1.9
