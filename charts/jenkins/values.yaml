@@ -210,12 +210,14 @@ controller:
     - configuration-as-code:1.51
     - ssh-credentials:1.18.2
     - credentials-binding:1.24
-    - pipeline-model-extensions:1.8.4
+    - pipeline-model-extensions:1.8.4gcs
     - jsch:0.1.55.2
     - git-client:3.7.1
     - git-server:1.9
     - workflow-cps-global-lib:2.19
     - pipeline-model-definition:1.8.4
+    - credentials:2.4.1
+    - trilead-api:1.0.13
 
   # Set to false to download the minimum required version of all dependencies.
   installLatestPlugins: false
