@@ -15,12 +15,11 @@ clusterZone: "cluster.local"
 
 renderHelmLabels: true
 
-master:
+
+controller:
   initContainerEnv:
     - name: JENKINS_UC_DOWNLOAD
       value: http://ftp-nyc.osuosl.org/pub/jenkins
-
-controller:
   # Used for label app.kubernetes.io/component
   componentName: "jenkins-controller"
   image: "calmmopey/jenkins-arm64-2.277.4"
