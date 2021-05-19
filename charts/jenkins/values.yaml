@@ -208,10 +208,10 @@ controller:
 
   # List of plugins to be install during Jenkins controller start
   installPlugins:
-    - kubernetes:1.29.4
+    - kubernetes:1.29.5
     - workflow-aggregator:2.6
     - git:4.7.1
-    - configuration-as-code:1.50
+    - configuration-as-code:1.51
     - ssh-credentials:1.18.1
     - credentials-binding:1.24
     - pipeline-model-extensions:1.8.4
@@ -224,7 +224,9 @@ controller:
     - trilead-api:1.0.13
     - gcp-secrets-manager-credentials-provider:0.2.6
     - plain-credentials:1.7
-    - matrix-auth:2.6.6
+    - matrix-auth:2.6.7
+    - command-launcher:1.6
+    - jdk-tool:1.5
 
   # Set to false to download the minimum required version of all dependencies.
   installLatestPlugins: false
