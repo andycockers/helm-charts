@@ -211,7 +211,7 @@ controller:
     - kubernetes:1.29.4
     - workflow-aggregator:2.6
     - git:4.7.1
-    - configuration-as-code:1.47
+    - configuration-as-code:1.50
     - ssh-credentials:1.18.1
     - credentials-binding:1.24
     - pipeline-model-extensions:1.8.4
